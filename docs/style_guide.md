@@ -1,3 +1,5 @@
+# MeteorHacks Style Guide (for JavaScript)
+
 > This is derived from [Meteor Style Guide](https://github.com/meteor/meteor/wiki/Meteor-Style-Guide). But we've made some changes, so this is not a exact copy.
 
 This is a set of guidelines for writing clear, organized, high-quality code that is consistent with the code in all MeteorHacks project.(private or public)
