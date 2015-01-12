@@ -82,7 +82,7 @@ Always use `//` rather than `/*`. See below:
 // this is a comment for foobar
 // this is a superior implementation
 function FooBar {
-  
+
 }
 ~~~
 
@@ -127,10 +127,10 @@ if(!alreadyDone) {
 }
 ~~~
 
-not 
+not
 
 ~~~
-if(!alreadyDone) 
+if(!alreadyDone)
   doSomething();
 ~~~
 
@@ -138,14 +138,14 @@ Only use ternary operation to write it in a single line.
 
 ~~~
 var a = (alreadyDone)? getTheValue() : 10;
-~~~ 
+~~~
 
 ## Return Statement
 
 Return statement should witten using a single line. (with less than 80 chars).
 
 ~~~
-var result = 
+var result =
   isThisCorrect ||
   thisMightBeWrong ||
   someThingElse;
@@ -153,10 +153,10 @@ var result =
 return result;
 ~~~
 
-not 
+not
 
 ~~~
-return 
+return
   isThisCorrect ||
   thisMightBeWrong ||
   someThingElse;
@@ -185,14 +185,14 @@ Always define the function name if it's in the prototype
 
 ~~~
 GoodClass.prototype.coolMethod = function coolMethod() {
-  
+
 }
 ~~~
 
-not 
+not
 ~~~
 GoodClass.prototype.coolMethod = function() {
-  
+
 }
 ~~~
 
@@ -213,7 +213,7 @@ MetaDataImpl.prototype.getTitle = function() {
   return this.name;
 }
 
-MetaData = new MetaData("arunoda");
+MetaData = new MetaDataImpl("arunoda");
 ~~~
 
 not
