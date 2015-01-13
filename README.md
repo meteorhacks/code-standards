@@ -6,3 +6,4 @@ These rules apply for all our private and public projects.
 
 * [Style Guide](docs/style_guide.md)
 * [Deafult `.jshintrc` file](default_jshintrc)
+* [Updaing Sublime Text Snippets](/docs/updating_sublime_text_snippets.md)
