@@ -61,9 +61,9 @@ Separate tokens with a single space as in these examples:
 
 When functions or objects fit entirely on a single line, put a space inside the enclosing braces:
 
-`stack.push({ parent: node, red: true })`, not `stack.push({parent:node, red: true})`
+`stack.push({parent: node, red: true})`, not `stack.push({ parent:node, red: true })`
 
-`a(function() { return true; })`, not `a(function() {return true;})`
+`a(function() {return true;})`, not `a(function() { return true; })`
 
 Single-line arrays don't get that space though:
 
